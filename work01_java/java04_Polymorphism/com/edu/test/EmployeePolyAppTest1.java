@@ -1,6 +1,8 @@
 package com.edu.test;
 
+import com.edu.utill.MyDate;
 import com.edu.utill.MyDate2;
+import com.edu.utill.MyDate3;
 import com.edu.vo.*;
 
 /*
@@ -15,9 +17,9 @@ import com.edu.vo.*;
  */
 public class EmployeePolyAppTest1 {
     public static void main(String[] args) {
-        Employee3 manager = new Manager3(111, "James", new MyDate2(2000, 12, 8), 70000.0, "it");
-        Employee3 engineer = new Engineer3(222, "Petter", new MyDate2(1990, 2, 9), 21212.2, "Marketing");
-        Employee3 secretary = new Secretary3(333, "Kim", new MyDate2(2010, 11, 21), 41415.2, "gilyeon");
+        Employee3 manager = new Manager3(111, "James", new MyDate3(2000, 12, 8), 70000.0, "it");
+        Employee3 engineer = new Engineer3(222, "Petter", new MyDate3(1990, 2, 9), 21212.2, "Marketing");
+        Employee3 secretary = new Secretary3(333, "Kim", new MyDate3(2010, 11, 21), 41415.2, "gilyeon");
 
         /*
             Virtual Method Invocation 원리가 작동
