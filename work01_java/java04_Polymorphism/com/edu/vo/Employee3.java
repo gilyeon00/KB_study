@@ -50,6 +50,10 @@ public class Employee3 {
         this.salary = salary;
     }
 
+    public int getEmpId() {
+        return empId;
+    }
+
     @Override
     public String toString() {
         return name + " " + getBirthdate() + " "+ salary;

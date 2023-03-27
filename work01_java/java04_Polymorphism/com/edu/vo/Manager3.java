@@ -24,6 +24,10 @@ public class Manager3 extends Employee3 {
         this.dept = dept;
     }
 
+    public String getDept() {
+        return dept;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", "+ dept;
