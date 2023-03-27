@@ -1,9 +1,9 @@
 package com.edu.test;
 
-import com.edu.utill.MyDate;
-import com.edu.vo.Enginner;
-import com.edu.vo.Manager;
-import com.edu.vo.Secratary;
+import com.edu.utill.MyDate2;
+import com.edu.vo.Enginner2;
+import com.edu.vo.Manager2;
+import com.edu.vo.Secratary2;
 
 /*
     Test 하는 일
@@ -14,23 +14,23 @@ import com.edu.vo.Secratary;
  */
 public class EmployeeAppTest1 {
     public static void main(String[] args) {
-        Manager[] managers = {
-                new Manager("James", new MyDate(2000, 12, 8), 70000.0, "it"),
-                new Manager("Petter", new MyDate(1990, 2, 9), 21212.2, "Marketing"),
-                new Manager("Kim", new MyDate(2010, 11, 21), 41415.2, "it")
+        Manager2[] managers = {
+                new Manager2("James", new MyDate2(2000, 12, 8), 70000.0, "it"),
+                new Manager2("Petter", new MyDate2(1990, 2, 9), 21212.2, "Marketing"),
+                new Manager2("Kim", new MyDate2(2010, 11, 21), 41415.2, "it")
         };
 
-        Enginner eg = new Enginner("gg", new MyDate(2000, 12, 8), 55000, "Full", 8888);
-        Secratary s = new Secratary("ss", new MyDate(1995, 8, 23), 45000, "gg");
+        Enginner2 eg = new Enginner2("gg", new MyDate2(2000, 12, 8), 55000, "Full");
+        Secratary2 s = new Secratary2("ss", new MyDate2(1995, 8, 23), 45000, "gg");
 
         System.out.println("=========정보 출력============");
-        for(Manager m : managers) System.out.println(m.getDetails());
+//        for(Manager2 m : managers) System.out.println(m.getDetails());
 
         System.out.println("=========이름 출력============");
-        for(Manager m : managers) System.out.println(m.getName());
+//        for(Manager2 m : managers) System.out.println(m.getName());
 
         System.out.println("=========연봉 출력============");
-        for (Manager m : managers) System.out.println(m.getSalary() * 12 + "달러");
+//        for (Manager2 m : managers) System.out.println(m.getSalary() * 12 + "달러");
 
     }
 }

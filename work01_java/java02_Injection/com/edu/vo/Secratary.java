@@ -8,12 +8,12 @@ package com.edu.vo;
     3. Public 주입된 값을 반환하는 기능
  */
 
-import com.edu.utill.MyDate;
+import com.edu.utill.MyDate2;
 
 public class Secratary {
     // Field
     private String name;
-    private MyDate birthdate;
+    private MyDate2 birthdate;
     private double salary;
     private  String bossOfName;
 
@@ -22,7 +22,7 @@ public class Secratary {
     }
 
     // 명시적 생성자 - 값을 주입하는 통로
-    public Secratary(String name, MyDate birthdate, double salary, String bossOfName) {
+    public Secratary(String name, MyDate2 birthdate, double salary, String bossOfName) {
         this.name = name;
         this.birthdate = birthdate;
         this.salary = salary;
@@ -30,7 +30,7 @@ public class Secratary {
     }
 
     // 값을 주입하는 통로 <- 하는 일이 똑같으면, 구현부가 똑같
-    public void setManagerField(String name, MyDate birthdate, double salary, String bossOfName) {
+    public void setManagerField(String name, MyDate2 birthdate, double salary, String bossOfName) {
         this.name = name;
         this.birthdate = birthdate;
         this.salary = salary;
@@ -45,7 +45,7 @@ public class Secratary {
         return name;
     }
 
-    public MyDate getBirthdate() {
+    public MyDate2 getBirthdate() {
         return birthdate;
     }
 

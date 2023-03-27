@@ -7,11 +7,11 @@ package com.edu.vo;
     3. public 주입된 값을 반환하는 기능을 정의
  */
 
-import com.edu.utill.MyDate;
+import com.edu.utill.MyDate2;
 
 public class Enginner {
     private String name;
-    private MyDate birthdate;
+    private MyDate2 birthdate;
     private double salary;
     private String tech;
     private double bonus;
@@ -19,7 +19,7 @@ public class Enginner {
     public Enginner() {
     }
 
-    public Enginner(String name, MyDate birthdate, double salary, String tech, double bonus) {
+    public Enginner(String name, MyDate2 birthdate, double salary, String tech, double bonus) {
         this.name = name;
         this.birthdate = birthdate;
         this.salary = salary;
@@ -35,7 +35,7 @@ public class Enginner {
         return name;
     }
 
-    public MyDate getBirthdate() {
+    public MyDate2 getBirthdate() {
         return birthdate;
     }
 
