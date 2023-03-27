@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/work01_java/java02_Injection" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/work01_java/java03_Inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/work02_java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/work01_java/java04_Polymorphism" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

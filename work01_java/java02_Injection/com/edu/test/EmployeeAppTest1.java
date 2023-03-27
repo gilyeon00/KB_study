@@ -1,9 +1,9 @@
 package com.edu.test;
 
 import com.edu.utill.MyDate2;
-import com.edu.vo.Enginner2;
+import com.edu.vo.Engineer3;
 import com.edu.vo.Manager2;
-import com.edu.vo.Secratary2;
+import com.edu.vo.Secretary3;
 
 /*
     Test 하는 일
@@ -20,8 +20,8 @@ public class EmployeeAppTest1 {
                 new Manager2("Kim", new MyDate2(2010, 11, 21), 41415.2, "it")
         };
 
-        Enginner2 eg = new Enginner2("gg", new MyDate2(2000, 12, 8), 55000, "Full");
-        Secratary2 s = new Secratary2("ss", new MyDate2(1995, 8, 23), 45000, "gg");
+//        Engineer eg = new Engineer3("gg", new MyDate2(2000, 12, 8), 55000, "Full");
+//        Secretary3 s = new Secretary3("ss", new MyDate2(1995, 8, 23), 45000, "gg");
 
         System.out.println("=========정보 출력============");
 //        for(Manager2 m : managers) System.out.println(m.getDetails());
