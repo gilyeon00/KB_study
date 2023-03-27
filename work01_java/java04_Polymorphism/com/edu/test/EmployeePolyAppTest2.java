@@ -20,7 +20,7 @@ public class EmployeePolyAppTest2 {
     public static void main(String[] args) {
         Employee3[ ] emps=  {
                 new Manager3(111,"James", new MyDate3(1990,3,24),200002.0,"IT"),
-                new Engineer3(222,"Gosling", new MyDate3(1990,2,24),150.0,"python"),
+                new Engineer3(222,"Gosling", new MyDate3(1990,2,24),150.0,"python", 1221.),
                 new Manager3(333,"Peter", new MyDate3(1990,1,24),450002.0,"IT"),
                 new Secretary3(444,"Juliet", new MyDate3(1990,1,24),350002.0,"Gosling"),
                 new Manager3(555,"James1", new MyDate3(1990,3,24),200002.0,"IT")

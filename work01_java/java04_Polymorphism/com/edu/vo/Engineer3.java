@@ -13,7 +13,7 @@ public class Engineer3 extends Employee3 {
     private String tech;
     private double bonus;
 
-    public Engineer3(int empId, String name, MyDate3 birthdate, double salary, String tech) {
+    public Engineer3(int empId, String name, MyDate3 birthdate, double salary, String tech, Double bonus) {
         // 무조건 부모 생성이 무조건 일어난다.
         super(empId, name, birthdate, salary);
         this.tech = tech;
