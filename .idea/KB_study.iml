@@ -9,6 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/work02_java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/work01_java/java04_Polymorphism" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/work01_java/java05_static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/work01_java/java06_Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/work01_java/java07_Interface_Employee" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/work01_java/java08_Collections" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/workshop_homework/java_01" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
