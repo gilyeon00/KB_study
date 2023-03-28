@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/java07_Interface_Employee/java07_Interface_Employee.iml" filepath="$PROJECT_DIR$/java07_Interface_Employee/java07_Interface_Employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/java08_Collections/java08_Collections.iml" filepath="$PROJECT_DIR$/java08_Collections/java08_Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/java09_List_Employee/java09_List_Employee.iml" filepath="$PROJECT_DIR$/java09_List_Employee/java09_List_Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java10_Exception/java10_Exception.iml" filepath="$PROJECT_DIR$/java10_Exception/java10_Exception.iml" />
     </modules>
   </component>
 </project>
